@@ -6,6 +6,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
+  margin: 0 0 28px 0;
 }
 
 main {
@@ -24,6 +25,51 @@ main {
 hr {
   border: 1px solid #d1d1d1;
   margin-bottom: 30px;
+}
+
+/* Heading Nav Bar */
+header {
+  background-color: #562eff;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 870px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 285px;
+}
+
+.logo {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40.42px;
+  height: 51px;
+  margin-right: 16px;
+}
+.nav {
+  display: flex;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.nav p {
+  margin-left: 36px;
+}
+
+.nav img {
+  width: 51px;
+  height: 51px;
+  margin-left: 36px;
 }
 
 /* top players style */
