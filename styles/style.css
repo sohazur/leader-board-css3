@@ -39,7 +39,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 285px;
+  padding: 17px 0;
 }
 
 .logo {
@@ -159,7 +159,6 @@ header {
 .course-rating {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .fa-star {
@@ -178,6 +177,7 @@ header {
   background-color: #ffe4e8;
   color: #ff4a60;
   padding: 5px;
+  margin-left: 31px;
   border-radius: 15px;
 }
 
@@ -190,9 +190,11 @@ header {
     Media Queries
 -------------------*/
 @media only screen and (max-width: 688px) {
-  .container {
+  .container,
+  header {
     width: 100%;
   }
+
   .players,
   .blogs,
   .courses {
@@ -206,11 +208,20 @@ header {
   .blog {
     align-items: center;
   }
+  .courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .course {
+    margin-bottom: 2em;
+  }
 }
 
 /* Table devices */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
-  .container {
+  .container,
+  header {
     width: 100%;
   }
   .players,
